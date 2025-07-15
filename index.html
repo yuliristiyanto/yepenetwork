@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YEPE NETWORK - Jasa Pasang WiFi Cepat di Wonogiri</title>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon (opsional, ganti dengan logo Anda) -->
+    <link rel="icon" href="https://placehold.co/32x32/1d4ed8/ffffff?text=YN" type="image/png">
+
+    <style>
+        /* Menggunakan font Inter sebagai default */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Efek bayangan halus untuk kartu dan tombol */
+        .custom-shadow {
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+        .custom-shadow-lg {
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation Bar -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3">
+                <img src="https://scontent.fsrg10-1.fna.fbcdn.net/v/t39.30808-6/302492523_777067656626386_1387963686351107729_n.png?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9m2J-plh5KoQ7kNvwHtxHvW&_nc_oc=AdkI0MMcvD13446lUsDP4rYT_uRdtoR2lUhe_UmNQJlL_eMmEGIl1xXqmcJ6Z_R6cGs&_nc_zt=23&_nc_ht=scontent.fsrg10-1.fna&_nc_gid=yv6hAJ9tNDNwqaVjyo7s6Q&oh=00_AfRqLDYSsOhTrLgwPi2R7G7vCf-SEguy82OlfleLDzP0gw&oe=687B939C" alt="Logo Mamura Inter Media" class="h-8">
+                <span class="text-2xl font-bold text-blue-700">YEPE NETWORK</span>
+            </a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#paket" class="text-gray-600 hover:text-blue-700 transition duration-300">Paket</a>
+                <a href="#coverage" class="text-gray-600 hover:text-blue-700 transition duration-300">Jangkauan</a>
+                <a href="#testimoni" class="text-gray-600 hover:text-blue-700 transition duration-300">Testimoni</a>
+                <a href="#kontak" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition duration-300 custom-shadow">Hubungi Kami</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#paket" class="block py-2 text-gray-600 hover:text-blue-700">Paket</a>
+            <a href="#coverage" class="block py-2 text-gray-600 hover:text-blue-700">Jangkauan</a>
+            <a href="#testimoni" class="block py-2 text-gray-600 hover:text-blue-700">Testimoni</a>
+            <a href="#kontak" class="block mt-2 bg-blue-600 text-white text-center px-5 py-2 rounded-full hover:bg-blue-700">Hubungi Kami</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2070&auto=format&fit=crop');">
+            <div class="absolute inset-0 bg-black/60"></div>
+            <div class="container mx-auto px-6 text-center relative z-10">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4">Koneksi Internet Cepat & Stabil se-Wonogiri</h1>
+                <p class="text-lg md:text-xl text-gray-200 mb-8 max-w-3xl mx-auto">Solusi internet andal untuk streaming, belajar, bekerja, dan bisnis Anda. Nikmati internet tanpa batas kuota dengan layanan prioritas.</p>
+                <a href="#paket" class="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 custom-shadow-lg">Lihat Paket Unggulan</a>
+            </div>
+        </section>
+
+        <!-- Paket Penjualan Section -->
+        <section id="paket" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Pilih Paket Sesuai Kebutuhan Anda</h2>
+                    <p class="text-gray-600 mt-2">Harga terjangkau dengan kualitas koneksi yang bisa diandalkan.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Paket 1 -->
+                    <div class="bg-gray-50 border border-gray-200 rounded-xl p-8 text-center transform hover:scale-105 transition-transform duration-300 custom-shadow">
+                        <h3 class="text-2xl font-semibold mb-2">Up to 10 Mbps</h3>
+                        <p class="text-gray-500 mb-6">Cocok untuk browsing ringan</p>
+                        <p class="text-4xl font-bold text-blue-600 mb-6">Rp 100.000<span class="text-sm font-normal text-gray-500">/bulan</span></p>
+                        <ul class="text-gray-600 space-y-2 mb-8">
+                            <li>✓ Unlimited Tanpa FUP</li>
+                            <li>✓ Ideal untuk 1-2 perangkat</li>
+                            <li>✓ Gratis Biaya Instalasi*</li>
+                        </ul>
+                        <a href="#kontak" class="w-full bg-gray-200 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-300 transition duration-300">Pilih Paket</a>
+                    </div>
+                    <!-- Paket 2 (Paling Populer) -->
+                    <div class="bg-blue-600 text-white rounded-xl p-8 text-center transform scale-105 custom-shadow-lg relative">
+                        <span class="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-yellow-400 text-blue-900 text-xs font-bold px-3 py-1 rounded-full">TERLARIS</span>
+                        <h3 class="text-2xl font-semibold mb-2">Up to 25 Mbps</h3>
+                        <p class="text-blue-200 mb-6">Untuk streaming & keluarga</p>
+                        <p class="text-4xl font-bold text-white mb-6">Rp 150.000<span class="text-sm font-normal text-blue-200">/bulan</span></p>
+                        <ul class="text-blue-100 space-y-2 mb-8">
+                            <li>✓ Unlimited Tanpa FUP</li>
+                            <li>✓ Ideal untuk 3-5 perangkat</li>
+                            <li>✓ Gratis Biaya Instalasi*</li>
+                        </ul>
+                        <a href="#kontak" class="w-full bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">Pilih Paket</a>
+                    </div>
+                    <!-- Paket 3 -->
+                    <div class="bg-gray-50 border border-gray-200 rounded-xl p-8 text-center transform hover:scale-105 transition-transform duration-300 custom-shadow">
+                        <h3 class="text-2xl font-semibold mb-2">Up to 45 Mbps</h3>
+                        <p class="text-gray-500 mb-6">Kerja & main game lancar</p>
+                        <p class="text-4xl font-bold text-blue-600 mb-6">Rp 185.000<span class="text-sm font-normal text-gray-500">/bulan</span></p>
+                        <ul class="text-gray-600 space-y-2 mb-8">
+                            <li>✓ Unlimited Tanpa FUP</li>
+                            <li>✓ Ideal untuk 5-8 perangkat</li>
+                            <li>✓ Gratis Biaya Instalasi*</li>
+                        </ul>
+                        <a href="#kontak" class="w-full bg-gray-200 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-300 transition duration-300">Pilih Paket</a>
+                    </div>
+                     <!-- Paket 4 -->
+                    <div class="bg-gray-50 border border-gray-200 rounded-xl p-8 text-center transform hover:scale-105 transition-transform duration-300 custom-shadow">
+                        <h3 class="text-2xl font-semibold mb-2">Up to 65 Mbps</h3>
+                        <p class="text-gray-500 mb-6">Kebutuhan performa tinggi</p>
+                        <p class="text-4xl font-bold text-blue-600 mb-6">Rp 260.000<span class="text-sm font-normal text-gray-500">/bulan</span></p>
+                        <ul class="text-gray-600 space-y-2 mb-8">
+                            <li>✓ Unlimited Tanpa FUP</li>
+                            <li>✓ Untuk banyak perangkat</li>
+                            <li>✓ Gratis Biaya Instalasi*</li>
+                        </ul>
+                        <a href="#kontak" class="w-full bg-gray-200 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-300 transition duration-300">Pilih Paket</a>
+                    </div>
+                </div>
+                <p class="text-center text-gray-500 mt-8 text-sm">*Syarat & Ketentuan Berlaku</p>
+            </div>
+        </section>
+
+        <!-- Peta Coverage Section -->
+        <section id="coverage" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Area Jangkauan Kami</h2>
+                    <p class="text-gray-600 mt-2">Kami terus memperluas jaringan untuk menjangkau seluruh pelosok Wonogiri.</p>
+                </div>
+                <div class="w-full h-96 rounded-xl overflow-hidden custom-shadow-lg border-4 border-white">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252831.5229497918!2d110.74102989453123!3d-7.983944300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e796e18231b1f07%3A0x3028b2c45b28de0!2sKabupaten%20Wonogiri%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1678888888888!5m2!1sid!2sid"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                 <div class="text-center mt-8">
+                    <p class="text-gray-700">Area Anda belum terjangkau? Hubungi kami untuk permintaan perluasan jaringan!</p>
+                    <a href="#kontak" class="text-blue-600 font-semibold hover:underline">Kontak Kami Sekarang</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimoni Section -->
+        <section id="testimoni" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Apa Kata Pelanggan Kami?</h2>
+                    <p class="text-gray-600 mt-2">Kepuasan Anda adalah prioritas utama kami.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Testimoni 1 -->
+                    <div class="bg-gray-50 p-6 rounded-lg custom-shadow">
+                        <p class="text-gray-600 italic">"Mantap betul internetnya! Buat main game online ping-nya stabil, anak saya juga lancar sekolah online. Timnya ramah pas pemasangan. Recommended!"</p>
+                        <div class="flex items-center mt-4">
+                            <img src="https://placehold.co/48x48/e0e7ff/3730a3?text=AS" alt="Foto Pelanggan" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <p class="font-bold">Bapak Agus S.</p>
+                                <p class="text-sm text-gray-500">Pelanggan di Slogohimo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimoni 2 -->
+                    <div class="bg-gray-50 p-6 rounded-lg custom-shadow">
+                        <p class="text-gray-600 italic">"Saya buka usaha warung kopi, butuh WiFi kencang buat pelanggan. Sejak pasang YEPE NETWORK, pelanggan makin betah. Harganya juga masuk akal."</p>
+                        <div class="flex items-center mt-4">
+                            <img src="https://placehold.co/48x48/e0e7ff/3730a3?text=RW" alt="Foto Pelanggan" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <p class="font-bold">Ibu Retno W.</p>
+                                <p class="text-sm text-gray-500">Pemilik Warkop di Purwantoro</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimoni 3 -->
+                    <div class="bg-gray-50 p-6 rounded-lg custom-shadow">
+                        <p class="text-gray-600 italic">"Pelayanannya cepat. Kemarin ada kendala, saya telepon CS, sorenya teknisi langsung datang dan masalah beres. Tidak mengecewakan sama sekali."</p>
+                        <div class="flex items-center mt-4">
+                            <img src="https://placehold.co/48x48/e0e7ff/3730a3?text=D" alt="Foto Pelanggan" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <p class="font-bold">Mas Doni</p>
+                                <p class="text-sm text-gray-500">Karyawan WFH di Jatiroto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / Kontak Section -->
+        <footer id="kontak" class="bg-gray-800 text-white pt-16 pb-8">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                    <!-- Info Perusahaan -->
+                    <div>
+                        <h4 class="text-xl font-bold mb-4">YEPE NETWORK</h4>
+                        <p class="text-gray-400">by MAMURA INTER MEDIA</p>
+                        <p class="text-gray-400 mt-2 max-w-xs mx-auto md:mx-0">Menyediakan layanan internet cepat, stabil, dan terjangkau untuk seluruh masyarakat Wonogiri.</p>
+                    </div>
+                    <!-- Alamat & Kontak -->
+                    <div>
+                        <h4 class="text-xl font-bold mb-4">Hubungi Kami</h4>
+                        <p class="text-gray-400 font-semibold">Alamat Kantor:</p>
+                        <p class="text-gray-400">Kembang RT 02 RW 04, Desa Sokoboyo, Kec. Slogohimo, Kab. Wonogiri, Jawa Tengah</p>
+                        <p class="text-gray-400 mt-4"><span class="font-semibold">WhatsApp:</span> <a href="https://wa.me/6285216412616" target="_blank" class="hover:text-blue-400">0852-1641-2616</a></p>
+                        <p class="text-gray-400"><span class="font-semibold">Email:</span> <a href="mailto:info@yepenetwork.com" class="hover:text-blue-400">info@yepenetwork.com</a> (placeholder)</p>
+                    </div>
+                    <!-- Navigasi Cepat -->
+                    <div>
+                        <h4 class="text-xl font-bold mb-4">Navigasi</h4>
+                        <ul>
+                            <li><a href="#paket" class="text-gray-400 hover:text-white">Paket Internet</a></li>
+                            <li class="mt-2"><a href="#coverage" class="text-gray-400 hover:text-white">Area Jangkauan</a></li>
+                            <li class="mt-2"><a href="#testimoni" class="text-gray-400 hover:text-white">Testimoni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border-t border-gray-700 mt-12 pt-6 text-center text-gray-500 text-sm">
+                    <p>&copy; 2024 YEPE NETWORK BY MAMURA INTER MEDIA. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        // JavaScript untuk menu mobile
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Menutup menu mobile saat link di-klik
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+
+</body>
+</html>
